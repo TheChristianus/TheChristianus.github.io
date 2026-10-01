@@ -159,7 +159,7 @@ function App() {
               </p>
               <p className="muted">
                 I am a Mechanical Engineering student developing practical
-                skills in computer-aided design, surface modeling and
+                skills in computer-aided design, simulation and
                 engineering problem solving. My goal is to connect precise CAD
                 work with real mechanical and aerospace applications.
               </p>
