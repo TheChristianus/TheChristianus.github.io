@@ -20,7 +20,7 @@ const experiences = [
     "INTERNSHIP",
     "COMPANY · LOCATION",
     "Role",
-    ["Technologies"],
+    ["Technologies Used"],
     "Date"
   ],
   
