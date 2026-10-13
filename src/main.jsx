@@ -33,6 +33,7 @@ const skills = [
   ["Aerospace", "Engineering fundamentals"],
   ["Engineering Analysis", "Technical reasoning"],
   ["Abaqus", "Finite elements Analysis"],
+  ["3DEXPERIENCE", "Projet management"]
 ];
 function App() {
   const [open, setOpen] = useState(false),
