@@ -16,12 +16,12 @@ const projects = [
 const experiences = [
   [
     "EXP-001",
-    "Mechanical Engineering Intern",
+    "Seeking for first experience",
     "INTERNSHIP",
-    "COMPANY · LOCATION",
-    "Role",
-    ["Technologies"],
-    "Date"
+    " ",
+    " ",
+    [" "],
+    " "
   ],
   
 ];
@@ -32,8 +32,9 @@ const skills = [
   ["Mechanical Design", "Parametric modeling"],
   ["Aerospace", "Engineering fundamentals"],
   ["Engineering Analysis", "Technical reasoning"],
-  ["Abaqus", "Finite elements Analysis"],
-  ["3DEXPERIENCE", "Projet management"]
+  ["Simulia/Abaqus", "Finite elements Analysis"],
+  ["3DEXPERIENCE", "Colaborative Work"],
+  ["3DEXPERIENCE CATIA", "3D mechanical design"]
 ];
 function App() {
   const [open, setOpen] = useState(false),
@@ -55,7 +56,7 @@ function App() {
       <header>
         <nav>
           <a className="brand" href="#home">
-            Panthera Christianus<span>.</span>
+            Koffi Christian KOUAYI <span>.</span>
           </a>
           <button className="toggle" onClick={() => setOpen(!open)}>
             ☰
@@ -176,7 +177,7 @@ function App() {
                 <span>INTEREST</span>Aerospace Engineering
               </p>
               <p>
-                <span>CAD</span>SOLIDWORKS / CATIA V5 / 3Dexperience
+                <span>CAD</span>SOLIDWORKS / CATIA V5 / 3DEXPERIENCE
               </p>
               <p>
                 <span>APPROACH</span>Design → Model → Validate
