@@ -333,6 +333,22 @@ function App() {
             </a>
             <code>VERIFIED / CSWP</code>
           </div>
+          <div className="cert reveal">
+            <img src = "\images\certified-3dexperience-3dswymer-associate.png" alt="Certified 3DEXPERIENCE 3DSwymer - Associate" className="CSWP-badge"/>
+            
+            <div>
+              <small>3DEXPERIENCE CERTIFICATION</small>
+              <h3>Certified 3DEXPERIENCE 3DSwymer - Associate</h3>
+              <p>
+                Associate-level certification demonstrating foundamental knowledge of
+                the 3DEXPERIENCE platform and collaborative product development workflows.
+              </p>
+            </div>
+            <a className="btn" href="https://www.credly.com/badges/247b7cd7-6126-4fa3-aff0-b62f05f7dc32/public_url">
+              View Credential ↗
+            </a>
+            <code>VERIFIED / 3DSwymer</code>
+          </div>
         </section>
         <section id="contact" className="section contact">
           <div className="reveal">
