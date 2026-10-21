@@ -382,7 +382,7 @@ function App() {
         </section>
       </main>
       <footer>
-        Koffi Christian KOUAYI / ENGINEERING PORTFOLIO{" "}
+        Koffi Christian KOUAYI / ENGINEERING PORTFOLIO {" "}
         <span>MECHANICAL × AEROSPACE</span> © 2026
       </footer>
     </>
