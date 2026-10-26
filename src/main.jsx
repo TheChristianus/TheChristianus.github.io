@@ -318,8 +318,24 @@ function App() {
             </div>
           </div>
           <div className="cert reveal">
+            <img src = "\images\certified-solidworks-design-associate.png" alt="Certified SOLIDWORKS Associate" className="CSWP-badge"/>
+            <div>
+              <small>SOLIDWORKS CERTIFICATION</small>
+              <h3>Certified SOLIDWORKS Associate</h3>
+              <p>
+                This certification validates your ability to build parts using features such as patterns, 
+                fillets, and chamfers; create assemblies with standard mates; analyze designs using dimensions, 
+                mass properties; and apply materials to represent real-world design intent, establishing you as a 
+                capable entry-level SOLIDWORKS user.
+              </p>
+            </div>
+            <a className="btn" href="https://www.credly.com/badges/878629b7-b099-4afa-93c6-eb412e257e9f/public_url">
+              View Credential ↗
+            </a>
+            <code>VERIFIED / CSWA</code>
+          </div>
+          <div className="cert reveal">
             <img src = "\images\SOLIDWORKS DESIGN - PROFESSIONAL.png" alt="Certified SOLIDWORKS Professionnal" className="CSWP-badge"/>
-            
             <div>
               <small>SOLIDWORKS CERTIFICATION</small>
               <h3>Certified SOLIDWORKS Professional</h3>
@@ -348,6 +364,23 @@ function App() {
               View Credential ↗
             </a>
             <code>VERIFIED / 3DSwymer</code>
+          </div>
+          <div className="cert reveal">
+            <img src = "\images\certified-catia-mechanical-designer-associate.png" alt="Certified CATIA Mechanical Designer - Associate" className="CSWP-badge"/>
+            
+            <div>
+              <small>3DEXPERIENCE/CATIA CERTIFICATION</small>
+              <h3>Certified CATIA Mechanical Designer - Associate</h3>
+              <p>
+                As a Certified CATIA Mechanical Designer Associate, I am able to collaborate 
+                and navigate using the 3DEXPERIENCE platform, model a part, design an assembly, 
+                analyze a part and an assembly, create drafting.
+              </p>
+            </div>
+            <a className="btn" href="https://www.credly.com/badges/f4d559da-1bec-4bb8-b515-e64246ca1953/public_url">
+              View Credential ↗
+            </a>
+            <code>VERIFIED / CATIA Associate</code>
           </div>
         </section>
         <section id="contact" className="section contact">
