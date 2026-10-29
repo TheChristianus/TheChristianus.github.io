@@ -323,7 +323,7 @@ function App() {
               <small>SOLIDWORKS CERTIFICATION</small>
               <h3>Certified SOLIDWORKS Associate</h3>
               <p>
-                This certification validates your ability to build parts using features such as patterns, 
+                This certification validates my ability to build parts using features such as patterns, 
                 fillets, and chamfers; create assemblies with standard mates; analyze designs using dimensions, 
                 mass properties; and apply materials to represent real-world design intent, establishing you as a 
                 capable entry-level SOLIDWORKS user.
@@ -381,6 +381,23 @@ function App() {
               View Credential ↗
             </a>
             <code>VERIFIED / CATIA Associate</code>
+          </div>
+          <div className="cert reveal">
+            <img src = "\images\certified-catia-sheetmetal-designer-associate.png" alt="Certified CATIA Sheet Metal Designer - Associate" className="CSWP-badge"/>
+            
+            <div>
+              <small>3DEXPERIENCE/CATIA CERTIFICATION</small>
+              <h3>Certified CATIA Sheet Metal Designer - Associate</h3>
+              <p>
+                As a certified CATIA SheetMetal Designer Associate, 
+                I am able to create conceptual design, design bent parts, 
+                design sheet metal, create drafting.
+              </p>
+            </div>
+            <a className="btn" href="https://www.credly.com/badges/d3541fbb-8816-47cb-9ed2-9abc9fb780ba/public_url">
+              View Credential ↗
+            </a>
+            <code>VERIFIED / CATIA Sheet Metal Designer - Associate</code>
           </div>
         </section>
         <section id="contact" className="section contact">
