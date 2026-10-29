@@ -9,7 +9,7 @@ const projects = [
     "CATIA V5 · Assembly",
     "Part design and assembly focused.",
     ["CATIA V5", "CAD", "Assembly"],
-    "/images/Capture d'écran 2026-09-29 230144.png"
+    "\images\\Capture d'écran 2026-09-29 230144.png"
   ],
   
 ];
@@ -103,48 +103,26 @@ function App() {
             </a>
           </div>
           <div className="blueprint reveal">
-  <span>AIRCRAFT / A-01</span>
-
-  <div className="aircraft-container">
-  <svg className="aircraft" viewBox="0 0 120 120">
-    <path
-      d="
-        M8 60
-        L48 52
-        L65 15
-        L73 15
-        L68 52
-        L94 57
-        L106 42
-        L112 42
-        L104 60
-        L112 78
-        L106 78
-        L94 63
-        L68 68
-        L73 105
-        L65 105
-        L48 68
-        Z
-      "
-    />
-  </svg>
-</div>
-
-  <div className="runway" />
-
-  <div className="flight-data data-1">
-    ALT 1200 FT
-  </div>
-
-  <div className="flight-data data-2">
-    IAS 240 KT
-  </div>
-
-  <div className="flight-data data-3">
-    HDG 090°
-  </div>
-</div>
+            <span>AIRCRAFT / A-01 - PLAN VIEW</span>
+            <div className="aircraft-container">
+              <svg className="aircraft" viewBox="0 0 280 120" role="img" aria-label="Top-view technical illustration of a twin-engine swept-wing aircraft">
+                <g className="aircraft-jet">
+                  <path className="wing wing-main" d="M174 52 L105 8 L88 7 L113 53 Z M174 68 L105 112 L88 113 L113 67 Z" />
+                  <path className="wing wing-tail" d="M72 54 L40 35 L31 37 L46 58 Z M72 66 L40 85 L31 83 L46 62 Z" />
+                  <path className="engine" d="M151 25 C143 22 133 25 123 31 L138 40 C146 39 151 34 154 28 Z M151 95 C143 98 133 95 123 89 L138 80 C146 81 151 86 154 92 Z" />
+                  <path className="fuselage" d="M274 60 C266 56 255 54 239 53 L84 49 L55 43 L43 46 L57 56 L27 58 L20 60 L27 62 L57 64 L43 74 L55 77 L84 71 L239 67 C255 66 266 64 274 60 Z" />
+                  <path className="detail cockpit" d="M257 57 L266 60 L257 63" />
+                  <path className="detail centerline" d="M51 60 L255 60" />
+                  <path className="detail panel-line" d="M107 48 L122 59 M107 72 L122 61 M145 49 L156 59 M145 71 L156 61" />
+                  <path className="engine-core" d="M148 29 L154 28 L151 34 Z M148 91 L154 92 L151 86 Z" />
+                </g>
+              </svg>
+            </div>
+            <div className="runway" />
+            <div className="flight-data data-1">TWIN TURBOFAN</div>
+            <div className="flight-data data-2">SWEPT WING</div>
+            <div className="flight-data data-3">TOP VIEW / NTS</div>
+          </div>
         </section>
         <section id="about" className="section">
           <div className="head reveal">
@@ -186,12 +164,11 @@ function App() {
           </div>
           <div className="Resume-action">
             <a href="/Resume.pdf" target="_blank" rel="noreferrer" className="btn">
-            View my Resume
+              View my Resume
             </a>
-            <a href="\Resume.pdf" download="Koffi-Christian-KOUAYI-Resume.pdf" className="btn btn-outline">
+            <a href="/Resume.pdf" download="Koffi-Christian-KOUAYI-Resume.pdf" className="btn btn-outline">
               Download Resume
             </a>
-
           </div>
         </section>
         <section id="skills" className="section dark">
@@ -318,7 +295,7 @@ function App() {
             </div>
           </div>
           <div className="cert reveal">
-            <img src = "\images\certified-solidworks-design-associate.png" alt="Certified SOLIDWORKS Associate" className="CSWP-badge"/>
+            <img src="/images/certified-solidworks-design-associate.png" alt="Certified SOLIDWORKS Associate" className="CSWP-badge" />
             <div>
               <small>SOLIDWORKS CERTIFICATION</small>
               <h3>Certified SOLIDWORKS Associate</h3>
@@ -335,7 +312,7 @@ function App() {
             <code>VERIFIED / CSWA</code>
           </div>
           <div className="cert reveal">
-            <img src = "\images\SOLIDWORKS DESIGN - PROFESSIONAL.png" alt="Certified SOLIDWORKS Professionnal" className="CSWP-badge"/>
+            <img src="\images\SOLIDWORKS DESIGN - PROFESSIONAL.png" alt="Certified SOLIDWORKS Professional" className="CSWP-badge" />
             <div>
               <small>SOLIDWORKS CERTIFICATION</small>
               <h3>Certified SOLIDWORKS Professional</h3>
@@ -350,7 +327,7 @@ function App() {
             <code>VERIFIED / CSWP</code>
           </div>
           <div className="cert reveal">
-            <img src = "\images\certified-3dexperience-3dswymer-associate.png" alt="Certified 3DEXPERIENCE 3DSwymer - Associate" className="CSWP-badge"/>
+            <img src="/images/certified-3dexperience-3dswymer-associate.png" alt="Certified 3DEXPERIENCE 3DSwymer - Associate" className="CSWP-badge" />
             
             <div>
               <small>3DEXPERIENCE CERTIFICATION</small>
@@ -366,7 +343,7 @@ function App() {
             <code>VERIFIED / 3DSwymer</code>
           </div>
           <div className="cert reveal">
-            <img src = "\images\certified-catia-mechanical-designer-associate.png" alt="Certified CATIA Mechanical Designer - Associate" className="CSWP-badge"/>
+            <img src="/images/certified-catia-mechanical-designer-associate.png" alt="Certified CATIA Mechanical Designer - Associate" className="CSWP-badge" />
             
             <div>
               <small>3DEXPERIENCE/CATIA CERTIFICATION</small>
@@ -383,7 +360,7 @@ function App() {
             <code>VERIFIED / CATIA Associate</code>
           </div>
           <div className="cert reveal">
-            <img src = "\images\certified-catia-sheetmetal-designer-associate.png" alt="Certified CATIA Sheet Metal Designer - Associate" className="CSWP-badge"/>
+            <img src="/images/certified-catia-sheetmetal-designer-associate.png" alt="Certified CATIA Sheet Metal Designer - Associate" className="CSWP-badge" />
             
             <div>
               <small>3DEXPERIENCE/CATIA CERTIFICATION</small>
