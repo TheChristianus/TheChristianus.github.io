@@ -376,6 +376,21 @@ function App() {
             </a>
             <code>VERIFIED / CATIA Sheet Metal Designer - Associate</code>
           </div>
+          <div className="cert reveal">
+            <img src="/images/certified-catia-3d-tolerancing-and-annotation-desig.png" alt="Certified CATIA 3D Tolerancing and Annotation Designer - Associate" className="CSWP-badge" />
+            <div>
+              <small>3DEXPERIENCE/CATIA CERTIFICATION</small>
+              <h3>Certified CATIA 3D Tolerancing and Annotation Designer - Associate</h3>
+              <p>
+                Associate-level certification focused on defining and communicating
+                3D tolerances and annotations for CATIA designs.
+              </p>
+            </div>
+            <a className="btn" href="https://www.credly.com/badges/8c0683bc-2305-4e1f-8bc9-9c0c53335ddd/public_url">
+              View Credential ↗
+            </a>
+            <code>CATIA 3D TOLERANCING / ASSOCIATE</code>
+          </div>
         </section>
         <section id="contact" className="section contact">
           <div className="reveal">
